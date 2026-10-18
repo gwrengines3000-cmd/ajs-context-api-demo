@@ -3,12 +3,12 @@ import Sidebar from './Sidebar'
 import StatCard from './StatCard'
 import ActivityItem from './ActivityItem'
 
-const Layout = ({ user, setUser }) => {
+const Layout = () => {
   return (
     <div className="layout">
-      <Header user={user} setUser={setUser} />
+      <Header  />
       <div className="content">
-        <Sidebar user={user} setUser={setUser} />
+        <Sidebar />
         <main className="main">
           <h2>Welcome to the Dashboard</h2>
           <p className="subtitle">Here's what's happening today</p>

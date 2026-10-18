@@ -1,9 +1,9 @@
 import UserProfile from './UserProfile'
 
-const Sidebar = ({ user, setUser }) => {
+const Sidebar = () => {
   return (
     <aside className="sidebar">
-      <UserProfile user={user} setUser={setUser} />
+      <UserProfile />
       <nav>
         <ul>
           <li><a href="#">Dashboard</a></li>
